@@ -1,6 +1,7 @@
 import time
 
 import pyautogui
+#for i in range(5000): bundan sonra time.sleep() komutu olacak - x = 1 while x > 0: bu ikincikod
 x = 1
 while x > 0:
     time.sleep(5)

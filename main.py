@@ -1,8 +1,8 @@
 import time
 
 import pyautogui
-
-for i in range(5000):
+x = 1
+while x > 0:
     time.sleep(5)
     cords=pyautogui.locateOnScreen("Capture.PNG", confidence=0.9)
     if cords != None:
